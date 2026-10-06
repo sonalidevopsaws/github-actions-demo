@@ -13,8 +13,4 @@ jobs:
 
   java-cli:
 
-
-    steps:
-
-      - name: calling reusable-workflow
-        uses: ./.github/workflows/reusable-java-ci.yml 
+      uses: ./.github/workflows/reusable-java-ci.yml 
